@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CO:wght@100..400&display=swap');
+/*Variables en CSS*/
+:root{
+    /*Colores*/
+    --color: chocolate;
+    --colorSecundario: aqua;
+    /*Fuentes*/
+    ---fuentePrincipal:'Playwrite CO', CO;
+    /*shadow*/
+    --shadowExterior: 10px 10px 5px 0px #da43ab70;
+    --shadowInterior: -10px -10px 5px 0px #ecc38970 inset;
+}
+.row{
+    background-color: var(--colorSecundario);
+    display: flex;
+    padding: 10px;
+    gap:10px;
+}
+.caja{
+    display: flex;
+    width: 250px;
+    height: 200px;
+    background-color: var(--color);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: var(---fuentePrincipal);
+    box-shadow: var(--shadowExterior, --shadowInterior);
+  
+}
